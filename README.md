@@ -28,7 +28,7 @@ Parses human readable number like 1.5M and returns ```uint64``` number. Can retu
 ```go
 func HumanizeBytes(size uint64) string
 ```
-Breaks given number to 3-digit chunks splitted by a comma.
+Breaks ```size`` to 3-digit chunks splitted by a comma.
 
 ## func HumanizeSize
 ```go
