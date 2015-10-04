@@ -40,7 +40,7 @@ Converts ```size``` to numan readable format.
 ```go
 func SetPrecision(precision uint8) error
 ```
-Sets precision for future ```HumanizeSize()``` conversions. Default precision is 2. Can return ```TooPrecise``` error.
+Sets precision for future ```HumanizeSize()``` conversions. Default precision is 1. Can return ```TooPrecise``` error.
 
 # Errors
 ## UnknownUnit

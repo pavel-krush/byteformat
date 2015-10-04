@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-var precision uint8 = 2
+var precision uint8 = 1
 var printfFormat string = "%.2f"
 
 var TooPrecise = errors.New("Precision must not exceed 5")
