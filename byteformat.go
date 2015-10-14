@@ -95,7 +95,6 @@ func FromString(input string) (uint64, error) {
 	var ret int
 
 	if ret, err := fmt.Sscanf(input, "%f%c", &base, &unit); ret != 2 && ret != 1 {
-		fmt.Println(err)
 		return 0, err
 	}
 
